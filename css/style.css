@@ -28,6 +28,9 @@ main{
 .header{
     background-color: #F9F6F1;
     min-height: 800px;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header-menu{
     min-height: 90px;
@@ -35,7 +38,7 @@ main{
     width: 100%;
     top: 0;
     z-index: 100;
-    background-color: #F9F6F1;
+    background-color: transparent;
 }
 .section__wrapper{
     display: flex;
@@ -44,6 +47,7 @@ main{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    z-index: 99;
 }
 .mainmenu__list{
     position: absolute;
@@ -74,6 +78,7 @@ ul{
     border: 2px;
     background-color: #0CA941;
     color: #ffff;
+    font-family:'fredoka-regular';
 }
 .logo{
     position: absolute;
@@ -107,4 +112,74 @@ ul{
     height: 681.23px;
     left: 1133.25px;
     top: -84.22px;
+}
+.header__img {
+    z-index: 1;
+}
+.T{
+    position: absolute;
+    width: 616.56px;
+    height: 216.68px;
+    left: 215px;
+    top: 268.27px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    color: #374A3D;
+}
+.green{
+    color: #0CA941;
+}
+.R{
+    position: absolute;
+    width: 534.47px;
+    height: 58.86px;
+    left: 215px;
+    top: 523.73px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    Color: #707070;
+}
+.women{
+    position: absolute;
+    width: 498.27px;
+    height: 565.48px;
+    left: 853px;
+    top: 159px; 
+}
+.shop{
+    display: inline-block;
+    position: absolute;
+    width: 179.78px;
+    height: 67.11px;
+    left: 215px;
+    top: 623.19px;
+    border: 2px solid #0CA941;
+    border-radius: 50px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    color: #374A3D;
+}
+.gre{
+    color: #10AA42;
+}
+.line{
+    position: absolute;
+    width: 101.16px;
+    height: 72.7px;
+    top: 628.52px;
+    left: 457.61px;
+}
+.cactus{
+    position: absolute;
+    width: 168.87px;
+    height: 247.94px;
+    left: 635.73px;
+    top: 676.34px;
 }
