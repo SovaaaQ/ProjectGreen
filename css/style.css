@@ -122,7 +122,7 @@ ul{
     height: 216.68px;
     left: 215px;
     top: 268.27px;
-    font-family: 'Fredoka One';
+    font-family: 'Fredoka-Medium';
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -139,7 +139,7 @@ ul{
     left: 215px;
     top: 523.73px;
 
-    font-family: 'Gilroy';
+    font-family: 'fredoka-regular';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -182,4 +182,60 @@ ul{
     height: 247.94px;
     left: 635.73px;
     top: 676.34px;
+}
+
+
+.gren_flower{
+    position: absolute;
+    width: 288.87px;
+    height: 350.4px;
+    left: 93.13px;
+    top: 897.38px;
+}
+
+.ser{
+    font-family: 'Fredoka-Medium';
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 235px;
+    line-height: 40px; 
+    color:#374A3D
+}
+
+.long{
+    font-family: 'Fredoka-Regular';
+    color: #5B7262;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 400px;
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+.five{
+    position: absolute;
+    height: 98.93px;
+    width: 161.42px;
+    left: 761.58px;
+    top: 1042.08px;
+    border-radius: nullpx;
+
+    font-family: 'Fredoka-Bold';
+    font-style: normal;
+    font-size: 60px;
+    color:#0CA941
+}
+
+.mon{
+    position: absolute;
+    font-family: 'Fredoka-Regular';
+    height: 98.93px;
+    width: 161.42px;
+    left: 761.58px;
+    top: 1120px;
+    color: #678570;
+
+    font-size: 18px;
+    line-height: 26px;
 }
