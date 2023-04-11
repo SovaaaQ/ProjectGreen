@@ -162,7 +162,7 @@ ul{
     top: 623.19px;
     border: 2px solid #0CA941;
     border-radius: 50px;
-    font-family: 'Fredoka One';
+    font-family: 'Fredoka-Regular';
     font-style: normal;
     color: #374A3D;
 }
@@ -238,4 +238,128 @@ ul{
 
     font-size: 18px;
     line-height: 26px;
+}
+
+.ten{
+    position: absolute;
+    height: 98.93px;
+    width: 161.42px;
+    left: 1000px;
+    top: 1042.08px;
+
+    font-family: 'Fredoka-Bold';
+    font-style: normal;
+    font-size: 60px;
+    color:#0CA941
+}
+
+.pra{
+    position: absolute;
+    font-family: 'Fredoka-Regular';
+    height: 98.93px;
+    width: 161.42px;
+    left: 1000px;
+    top: 1120px;
+    color: #678570;
+
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.six{
+    position: absolute;
+    height: 98.93px;
+    width: 161.42px;
+    left: 1200px;
+    top: 1042.08px;
+
+    font-family: 'Fredoka-Bold';
+    font-style: normal;
+    font-size: 60px;
+    color:#0CA941
+}
+
+.tea{
+    position: absolute;
+    font-family: 'Fredoka-Regular';
+    height: 98.93px;
+    width: 161.42px;
+    left: 1200px;
+    top: 1120px;
+    color: #678570;
+
+    font-size: 18px;
+    line-height: 26px;
+}
+
+main{
+    background-color: #F9F6F1;
+    min-height: 800px;
+    background-image: url(../img/Ellipse\ 37.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.women__Y{
+    position: absolute;
+    width: 537.75px;
+    height: 427.35px;
+    left: -600px;
+    top: 1162.61px;
+}
+
+.garder{
+    position: absolute;
+    width: 400px;
+    left: 212.08px;
+    top: 1211.74px;
+
+    font-family: 'Fredoka-Medium';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+
+    
+
+    color: #374A3D;
+}
+
+.text{
+    position: absolute;
+    width: 457.92px;
+    height: 125.1px;
+    left: 212.08px;
+    top: 1321.53px;
+
+    font-family: 'Fredoka-Regular';
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #678570;
+}
+
+.read{
+    position: absolute;
+    width: 179.78px;
+    height: 67.11px;
+    left: 212.08px;
+    top: 1510px;
+
+    border: 2px solid #0CA941;
+    border-radius: 50px;
+    font-family: 'Fredoka-Regular';
+    font-style: normal;
+    color: #374A3D;
+
+}
+
+.line1{
+    position: absolute;
+    left: 440px;
+    right: 16.56%;
+    top: 1530px;
+    bottom: 61.07%;
+    transform: rotate(1.04deg);
 }
