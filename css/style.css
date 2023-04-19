@@ -10,6 +10,7 @@
 }
 .container{
     margin: 0 auto;
+    max-width: 1170px;
 }
 html,body{
     height: 100%;
@@ -36,7 +37,6 @@ main{
     min-height: 90px;
     position: fixed;
     width: 100%;
-    top: 0;
     z-index: 100;
     background-color: transparent;
 }
@@ -50,7 +50,6 @@ main{
     z-index: 99;
 }
 .mainmenu__list{
-    position: absolute;
     gap: 35px;
     display: flex;
     flex-direction: row;
@@ -60,8 +59,6 @@ main{
     font-size: 18px;
     letter-spacing: 0.03em;
     align-items: center;
-    top: 30px;
-    right: -90px;
 }
 .menu__link{
     color: #1D3B53;
@@ -81,47 +78,31 @@ ul{
     font-family:'fredoka-regular';
 }
 .logo{
-    position: absolute;
-    top: 19px;
     width: 36.52px;
     height: 34.31px;
-    left: 170px;
 }
 .logo__text{
-    position:absolute;
-    left: 210px;
-    top: -2px;
     color: #374A3D;
     font-family:'fredoka-regular'
 }
 .elips{
-    position: absolute;
     width: 414.19px;
     height: 414.19px;
 }
 .flower{
-    position: absolute;
-    left: 2.06%;
-    right: 89.55%;
-    top: 0%;
-    bottom: 95.23%;
+
 }
 .elips1{
-    position: absolute;
     width: 681.23px;
     height: 681.23px;
-    left: 1133.25px;
-    top: -84.22px;
+   
 }
 .header__img {
     z-index: 1;
 }
 .T{
-    position: absolute;
     width: 616.56px;
     height: 216.68px;
-    left: 215px;
-    top: 268.27px;
     font-family: 'Fredoka-Medium';
     font-style: normal;
     font-weight: 400;
@@ -133,11 +114,8 @@ ul{
     color: #0CA941;
 }
 .R{
-    position: absolute;
     width: 534.47px;
     height: 58.86px;
-    left: 215px;
-    top: 523.73px;
 
     font-family: 'fredoka-regular';
     font-style: normal;
@@ -147,19 +125,13 @@ ul{
     Color: #707070;
 }
 .women{
-    position: absolute;
     width: 498.27px;
     height: 565.48px;
-    left: 853px;
-    top: 159px; 
 }
 .shop{
     display: inline-block;
-    position: absolute;
     width: 179.78px;
     height: 67.11px;
-    left: 215px;
-    top: 623.19px;
     border: 2px solid #0CA941;
     border-radius: 50px;
     font-family: 'Fredoka-Regular';
@@ -170,27 +142,18 @@ ul{
     color: #10AA42;
 }
 .line{
-    position: absolute;
     width: 101.16px;
     height: 72.7px;
-    top: 628.52px;
-    left: 457.61px;
 }
 .cactus{
-    position: absolute;
     width: 168.87px;
     height: 247.94px;
-    left: 635.73px;
-    top: 676.34px;
 }
 
 
 .gren_flower{
-    position: absolute;
     width: 288.87px;
     height: 350.4px;
-    left: 93.13px;
-    top: 897.38px;
 }
 
 .ser{
@@ -214,11 +177,8 @@ ul{
 }
 
 .five{
-    position: absolute;
     height: 98.93px;
     width: 161.42px;
-    left: 761.58px;
-    top: 1042.08px;
     border-radius: nullpx;
 
     font-family: 'Fredoka-Bold';
@@ -228,12 +188,9 @@ ul{
 }
 
 .mon{
-    position: absolute;
     font-family: 'Fredoka-Regular';
     height: 98.93px;
     width: 161.42px;
-    left: 761.58px;
-    top: 1120px;
     color: #678570;
 
     font-size: 18px;
@@ -241,11 +198,8 @@ ul{
 }
 
 .ten{
-    position: absolute;
     height: 98.93px;
     width: 161.42px;
-    left: 1000px;
-    top: 1042.08px;
 
     font-family: 'Fredoka-Bold';
     font-style: normal;
@@ -254,12 +208,9 @@ ul{
 }
 
 .pra{
-    position: absolute;
     font-family: 'Fredoka-Regular';
     height: 98.93px;
     width: 161.42px;
-    left: 1000px;
-    top: 1120px;
     color: #678570;
 
     font-size: 18px;
@@ -267,11 +218,8 @@ ul{
 }
 
 .six{
-    position: absolute;
     height: 98.93px;
     width: 161.42px;
-    left: 1200px;
-    top: 1042.08px;
 
     font-family: 'Fredoka-Bold';
     font-style: normal;
@@ -280,12 +228,9 @@ ul{
 }
 
 .tea{
-    position: absolute;
     font-family: 'Fredoka-Regular';
     height: 98.93px;
     width: 161.42px;
-    left: 1200px;
-    top: 1120px;
     color: #678570;
 
     font-size: 18px;
@@ -301,18 +246,12 @@ main{
 }
 
 .women__Y{
-    position: absolute;
     width: 537.75px;
     height: 427.35px;
-    left: -625px;
-    top: 1162.61px;
 }
 
 .garder{
-    position: absolute;
     width: 400px;
-    left: 165px;
-    top: 1211.74px;
 
     font-family: 'Fredoka-Medium';
     font-style: normal;
@@ -325,11 +264,8 @@ main{
 }
 
 .text{
-    position: absolute;
     width: 457.92px;
     height: 125.1px;
-    left: 165px;
-    top: 1321.53px;
 
     font-family: 'Fredoka-Regular';
     font-style: normal;
@@ -341,11 +277,8 @@ main{
 }
 
 .read{
-    position: absolute;
     width: 179.78px;
     height: 67.11px;
-    left: 165px;
-    top: 1510px;
 
     border: 2px solid #0CA941;
     border-radius: 50px;
@@ -356,19 +289,11 @@ main{
 }
 
 .line1{
-    position: absolute;
-    left: 400px;
-    right: 16.56%;
-    top: 1530px;
-    bottom: 61.07%;
     transform: rotate(1.04deg);
 }
 .prof{
-    position: absolute;
     width: 355px;
     height: 44.29px;
-    left: 226.43px;
-    top: 2040.37px;
 
     font-family: 'Fredoka-Medium';
     font-style: normal;
@@ -381,11 +306,8 @@ main{
 }
 
 .text_3{
-    position: absolute;
     width: 457.92px;
     height: 217.86px;
-    left: 226.43px;
-    top: 2115.04px;
 
     font-family: 'Fredoka-Regular';
     font-style: normal;
@@ -397,19 +319,13 @@ main{
 }
 
 .Gro{
-    position: absolute;
     width: 806.42px;
     height: 759.68px;
-    left: 790.44px;
-    top: 1830.77px;
 }
 
 .read1{
-    position: absolute;
     width: 179.78px;
     height: 67.11px;
-    left: 226.43px;
-    top: 2373.29px;
 
     border: 2px solid #0CA941;
     border-radius: 50px;
@@ -419,18 +335,12 @@ main{
 }
 
 .line2{
-    position: absolute;
-    left: 460px;
-    top: 2395.29px;
     transform: rotate(2.1deg);
 }
 
 .ch{
-    position: absolute;
     width: 444px;
     height: 60px;
-    left: 584.67px;
-    top: 2708.91px;
 
     font-family: 'Fredoka-Bold';
     font-style: normal;
@@ -442,11 +352,8 @@ main{
 }
 
 .many{
-    position: absolute;
     width: 530.77px;
     height: 58.86px;
-    left: 536.92px;
-    top: 2799.42px;
 
     font-family: 'Fredoka-Regular';
     font-style: normal;
@@ -460,11 +367,8 @@ main{
     justify-content: space-around;
 }
 .q{
-    position: absolute;
     width: 360px;
     height: 437px;
-    left: 215px;
-    top: 2909.25px;
     text-align: center;
     padding-top: 30px;
     border: 0.5px solid rgba(0, 0, 0, 0.36);
@@ -477,35 +381,23 @@ main{
 }
 
 .a{
-    position: absolute;
     width: 200.26px;
     height: 32px;
-    left: 270.14px;
-    top: 3217.25px;
 }
 
 .a1{
-    position: absolute;
     width: 200.26px;
     height: 32px;
-    left: 43px;
-    top: 310px;
 }
 
 .a2{
-    position: absolute;
     width: 200.26px;
     height: 32px;
-    left: 68px;
-    top: 310px;
 }
 
 .op{
-    position: absolute;
     width: 27px;
     height: 32px;
-    left: 275.14px;
-    top: 3262.13px;
 
     font-family: 'Fredoka-Regular';
     font-style: normal;
@@ -517,11 +409,8 @@ main{
 }
 
 .op1{
-    position: absolute;
     width: 41px;
     height: 30px;
-    left: 275.14px;
-    top: 3282.13px;
 
     font-family: 'Fredoka-Bold';
     font-style: normal;
@@ -532,11 +421,8 @@ main{
 }
 
 .opp{
-    position: absolute;
     width: 27px;
     height: 32px;
-    left: 47px;
-    top: 352.13px;
 
     font-family: 'Fredoka-Regular';
     font-style: normal;
@@ -548,11 +434,8 @@ main{
 }
 
 .op_1{
-    position: absolute;
     width: 41px;
     height: 30px;
-    left: 45px;
-    top: 372.13px;
 
     font-family: 'Fredoka-Bold';
     font-style: normal;
@@ -563,12 +446,9 @@ main{
 }
 
 .oppp{
-    position: absolute;
     width: 27px;
     height: 32px;
-    left: 47px;
-    top: 352.13px;
-
+   
     font-family: 'Fredoka-Regular';
     font-style: normal;
     font-weight: 400;
@@ -579,11 +459,8 @@ main{
 }
 
 .op_11{
-    position: absolute;
     width: 41px;
     height: 30px;
-    left: 43px;
-    top: 372.13px;
 
     font-family: 'Fredoka-Bold';
     font-style: normal;
@@ -595,7 +472,6 @@ main{
 
 .btn-cart{
     display: inline-block;
-    position: absolute;
     width: 128.06px;
     height: 43.93px;
     font-family: 'Fredoka-Regular';
@@ -604,8 +480,6 @@ main{
     font-weight: 600;
     line-height: 24px;
     text-align: center;
-    left: 205.8px;
-    top: 372.58px;
     border: 0.5px solid rgba(55, 74, 61, 0.36);
     border-radius: 10px;
     color: #678570;
@@ -614,7 +488,6 @@ main{
 
 .btn-cart2{
     display: inline-block;
-    position: absolute;
     width: 128.06px;
     height: 43.93px;
     font-family: 'Fredoka-Regular';
@@ -623,8 +496,6 @@ main{
     font-weight: 600;
     line-height: 24px;
     text-align: center;
-    left: 205.8px;
-    top: 372.58px;
     border: 0.5px solid rgba(55, 74, 61, 0.36);
     border-radius: 10px;
     color: #678570;
@@ -633,7 +504,6 @@ main{
 
 .btn-cart3{
     display: inline-block;
-    position: absolute;
     width: 128.06px;
     height: 43.93px;
     font-family: 'Fredoka-Regular';
@@ -642,8 +512,6 @@ main{
     font-weight: 600;
     line-height: 24px;
     text-align: center;
-    left: 205.8px;
-    top: 372.58px;
     border: 0.5px solid rgba(55, 74, 61, 0.36);
     border-radius: 10px;
     color: #678570;
@@ -651,11 +519,8 @@ main{
 }
 
 .w{
-    position: absolute;
     width: 360px;
     height: 437px;
-    left: 620px;
-    top: 2909.25px;
     text-align: center;
     padding-top: 30px;
     border: 0.5px solid rgba(0, 0, 0, 0.36);
@@ -668,11 +533,8 @@ main{
 }
 
 .e{
-    position: absolute;
     width: 360px;
     height: 437px;
-    left: 1024.92px;
-    top: 2909.25px;
     text-align: center;
     padding-top: 30px;
     border: 0.5px solid rgba(0, 0, 0, 0.36);
@@ -685,23 +547,16 @@ main{
 }
 
 .elik{
-    position: absolute;
     width: 514.19px;
     height: 514.19px;
-    left: 1176.25px;
-    top: 3325.59px;
-
     background: rgba(83, 195, 81, 0.33);
     filter: blur(184px);
 }
 
 
 .h22{
-    position: absolute;
     width: 638px;
     height: 60px;
-    left: 472.56px;
-    top: 3575.97px;
 
     font-family: 'Fredoka-Medium';
     font-style: normal;
@@ -715,12 +570,8 @@ main{
 }
 
 .must{
-    position: absolute;
     width: 626.1px;
     height: 58.86px;
-    left: 479.01px;
-    top: 3666.54px;
-
     font-family: 'Fredoka-Regular';
     font-style: normal;
     font-weight: 500;
@@ -731,11 +582,8 @@ main{
     color: #678570;
 }
 form{
-    position: absolute;
     width: 657.63px;
     height: 81.89px;
-    left: 471.19px;
-    top: 3775.44px;
 
     background-color: #fff; /* цвет фона формы */
     padding: 10px; /* отступы внутри формы */
@@ -744,8 +592,6 @@ form{
 
 .em{
     box-sizing: border-box;
-
-    position: absolute;
     width: 491.35px;
     height: 81.89px;
     padding-left: 30px;
@@ -756,10 +602,8 @@ form{
 .sub{
     box-sizing: border-box;
 
-    position: absolute;
     width: 223.42px;
     height: 81.89px;
-    left: 400px;
 
     background: #0CA941;
     border: 1px solid #0CA941;
@@ -770,17 +614,6 @@ form{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 footer{
     display: flex;
     justify-content: space-around;
@@ -788,9 +621,35 @@ footer{
     padding-top: 5px;
     line-height: 2;
 
-    position: absolute;
     width: 1170.99px;
     height: 326.65px;
-    left: 214.91px;
-    top: 4117.7px;
+}
+
+.logo_e{
+
+    width: 36.52px;
+    height: 34.31px;
+}
+
+.hob{
+    font-family: 'Fredoka-Medium';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color:#374A3D;
+    text-align: left;
+}
+
+.hu{
+
+    width: 300.67px;
+    height: 122.94px;
+
+    font-family: 'Fredoka-Regular';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    color: #678570;
 }
